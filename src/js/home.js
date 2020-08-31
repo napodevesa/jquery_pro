@@ -31,6 +31,8 @@ const getUser = new Promise (function(todoBien, todoMal){
 
 })
 
+/*
+
 getUser
 	.then(function() {
 		console.log("todo ok")
@@ -50,3 +52,12 @@ getUser
 		.catch (funtion(msg)){
 			console.log (msg)
 		}
+*/
+
+$.ajax('https://randomuser.me/api/',{
+  method: 'GET',
+  success: function(data) {
+    console.log(data);
+  }
+});
+     
