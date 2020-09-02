@@ -68,7 +68,7 @@ fetch('https://randomuser.me/api/dsfdsfsd')
 
 
 (async function load() {
-  // await
+   await
   // action
   // terror
   // animation
